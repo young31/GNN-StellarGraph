@@ -95,22 +95,22 @@ StellarGraph(
 -   임베딩 모형은 그래프 구조에서 노드와 노드사이의 관계를 어떻게 latent space로 매핑할지에 대해 다룹니다.
 -   임베딩한 결과를 바탕으로 classification문제 등으로 확장할 수 있습니다.
 
-#### [Node2Vec](https://github.com/young31/GNN-StellarGraph/tree/master/1_1 Node2Vec)
+#### [Node2Vec](https://github.com/young31/GNN-StellarGraph/tree/master/1_1Node2Vec)
 
 -   가장 처음 접한 GNN기반 임베딩모형입니다.
 -   이웃 노드를 찾는 과정에서 DFS/BFS를 일반화하는 식을 만들어 탐색합니다.
 
-#### [Metapath2Vec](https://github.com/young31/GNN-StellarGraph/tree/master/1_2 Metapath2Vec)
+#### [Metapath2Vec](https://github.com/young31/GNN-StellarGraph/tree/master/1_2Metapath2Vec)
 
 -   heterogeneous networks를 다루기 위해 고안된 방법입니다.
 -   서로 다른 타입(class)의 노드들이 있는 경우 활용합니다.
 
-#### [Attri2Vec](https://github.com/young31/GNN-StellarGraph/tree/master/1_3 Attri2Vec)
+#### [Attri2Vec](https://github.com/young31/GNN-StellarGraph/tree/master/1_3Attri2Vec)
 
 -   그래프의 구조뿐만 아니라 그 특성(attribute)까지 파악하여 임베딩하는 방법입니다.
 -   이전의 결과들을 결합하여 성능을 향상시켰습니다.
 
-#### [DGI(deep graph infomax)](https://github.com/young31/GNN-StellarGraph/tree/master/1_4 DGI)
+#### [DGI(deep graph infomax)](https://github.com/young31/GNN-StellarGraph/tree/master/1_4DGI)
 
 -   가장  최근에 나온 모형인 만큼 성능면에서 뛰어난 결과를 보여줬습니다.
 -   구현 단계에서 bagging이나 boosting등에 활용과 비슷하여 새로웠습니다.
@@ -121,7 +121,7 @@ StellarGraph(
 -   GCN의 개념이 처음 나오고 다양하게 변형되고 있는것 같습니다.
 -   주요 목적으로는 node classification(NC), link prediction(lp)가 있습니다.
 
-#### [GCN](https://github.com/young31/GNN-StellarGraph/tree/master/2_1 GCN)
+#### [GCN](https://github.com/young31/GNN-StellarGraph/tree/master/2_1GCN)
 
 -   가장 기본적이고 처음 접한 모형입니다.
 -   spectral decomposition 방식으로 접근합니다.
@@ -133,13 +133,13 @@ StellarGraph(
 -   관계형 데이터의 그래프구조를 표현하기 위한 모형입니다.
 -   그래프에서의 관계형 구조를 제대로 이해하지 못해 제대로 구현하지 못하였습니다.
 
-#### [SGC](https://github.com/young31/GNN-StellarGraph/tree/master/2_3 SGC)
+#### [SGC](https://github.com/young31/GNN-StellarGraph/tree/master/2_3SGC)
 
 -   GCN의 simplify 버전입니다.
 -   GCN의 힘이 non-linear형식이 아니라 local-averaging으로 부터 온다고 가정하여 식을 간단히합니다.
 -   계산량은 줄이면서 성능은 크게 떨어지지 않는 효과를 기대하며 사용합니다.
 
-#### [Cluster-GCN](https://github.com/young31/GNN-StellarGraph/tree/master/2_4 Cluster-GCN)
+#### [Cluster-GCN](https://github.com/young31/GNN-StellarGraph/tree/master/2_4Cluster-GCN)
 
 -   GCN방식을 clustering을 적용하여 이웃탐색 과정 없이 훈련하도록 디자합니다.
 -   이로 인해 시간적/공간적으로 효율성을 높인다고 합니다.
@@ -147,7 +147,7 @@ StellarGraph(
 
 ## GraphSAGE 기반 모형
 
-#### [GraphSAGE](https://github.com/young31/GNN-StellarGraph/tree/master/3_1 GraphSAGE)
+#### [GraphSAGE](https://github.com/young31/GNN-StellarGraph/tree/master/3_1GraphSAGE)
 
 -   GCN에서 영감을 받아 발전한 형태입니다.
 -   GCN의 transductive한 방식을 inductive한 방식으로 발전시켰습니다.
@@ -160,14 +160,14 @@ StellarGraph(
 
 ## GAT기반 모형
 
-#### [GAT](https://github.com/young31/GNN-StellarGraph/tree/master/4_1 GAT)
+#### [GAT](https://github.com/young31/GNN-StellarGraph/tree/master/4_1GAT)
 
 -   attention 기술을 적용시켜 발전시킨 모형입니다.
 -   행렬에 대한 decomposition을 하지 않기 때문에 상당히 빠르게 작동합니다. 
 -   마찬가지로 방향그래프에 사용할 수 있습니다.
 -   활용도가 가장 높다고 생각합니다.
 
-#### [Watch Your Step](https://github.com/young31/GNN-StellarGraph/tree/master/4_2 WatchYourStep)
+#### [Watch Your Step](https://github.com/young31/GNN-StellarGraph/tree/master/4_2WatchYourStep)
 
 -   어텐션 매커니즘을 적용한 방식입니다.
 -   임베딩을 위한 모형임에도 위의 이유로 GAT기반 모형에 분류하였습니다.
