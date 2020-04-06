@@ -95,7 +95,7 @@ StellarGraph(
 -   임베딩 모형은 그래프 구조에서 노드와 노드사이의 관계를 어떻게 latent space로 매핑할지에 대해 다룹니다.
 -   임베딩한 결과를 바탕으로 classification문제 등으로 확장할 수 있습니다.
 
-#### [Node2Vec]([https://github.com/young31/GNN-StellarGraph/tree/master/1_1.%20Node2Vec](https://github.com/young31/GNN-StellarGraph/tree/master/1_1. Node2Vec))
+#### [Node2Vec](https://github.com/young31/GNN-StellarGraph/tree/master/1_1. Node2Vec)
 
 -   가장 처음 접한 GNN기반 임베딩모형입니다.
 -   이웃 노드를 찾는 과정에서 DFS/BFS를 일반화하는 식을 만들어 탐색합니다.
