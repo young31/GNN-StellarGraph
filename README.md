@@ -4,34 +4,30 @@
 
 - [Intro](#intro)
 - [Embedding 모형](#embedding-모형)
-     
+  
      - [Node2Vec](#node2vec)
      - [Metapath2Vec](#metapath2vec)
      - [Attri2Vec](#attri2vec)
      - [DGI(deep graph infomax)](#dgideep-graph-infomax)
 - [GCN기반 모형](#gcn기반-모형)
-
-         - [GCN](#gcn)
-
-        - [RGCN](#rgcn)
-        - [SGC](#sgc)
-        - [Cluster-GCN](#cluster-gcn)
+     - [GCN](#gcn)
+     - [RGCN](#rgcn)
+     - [SGC](#sgc)
+     - [Cluster-GCN](#cluster-gcn)
 - [GraphSAGE 기반 모형](#GraphSAGE-기반-모형)
-     
+  
      - [GraphSAGE](#GraphSAGE)
       - [HinSAGE](#hinsage)
 - [GAT기반 모형](#gat기반-모형)
-    	
-    	- [Watch Your Step](#watch-your-step)
+  - [Watch Your Step](#watch-your-step)
 - [Comparison](#comparison)
-    	
-     - [Supervised](#supervised)
+  - [Supervised](#supervised)
         	 - [Dataset](#dataset)
         - [Node Classification](#node-classification)
-   - [Link Prediction](#link-prediction)
-    
-    - [Unsupervised](#unsupervised)
-    	- [Node Embedding](#node-embedding)
+        - [Link Prediction](#link-prediction)
+      
+  - [Unsupervised](#unsupervised)
+       - [Node Embedding](#node-embedding)
 - [Reference](#Reference)
 
 ______
